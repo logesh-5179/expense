@@ -1,0 +1,105 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1, input, select, button {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+ }
+input,select{
+    width: 10%;
+ }
+body {
+  
+    background-color: #00d0ff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.cont {
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 90%;
+    max-width: 800px;
+}
+h1 {
+    
+    margin-bottom: 20px;
+    text-align: center;
+}
+.sec {
+    display: flex;
+    
+    gap: 2px;
+    margin-bottom: 20px;
+}
+.sec input, .sec select {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    min-width: 150px;
+}
+.sec button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    background-color: #ee1515;
+    color: #fff;
+    font-size: 16px;
+}
+.sec button:hover {
+    background-color: #0056b3;
+}
+.output table {
+    width: 100%;
+    border-collapse: collapse;
+}.output th, .output td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+
+.output td button {
+    border: none;
+    background-color: transparent;
+    color: #4c0eb1;
+    margin-right: 5px;
+}
+
+.output td button:hover {
+    text-decoration: underline;
+}
+.tot {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.tot h3 {
+    margin: 0;
+    font-size: 18px;
+}
+
+.tot input {
+    width: 100px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+   
+}
+
+.tot select {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+ 
+   
+}

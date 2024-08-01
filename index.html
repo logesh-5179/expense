@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style/style.css">
+</head>
+<body>
+    <div class="cont">
+        <h1>Expense Tracker</h1>
+        <div class="sec">
+            <input type="text" id="exp-name">
+            <input type="number" id="amt">
+            <select name="" id="">
+                <option value="Food">Food</option>
+                <option value="fashion">Fashion</option>
+                <option value="ent">Entertain</option>
+                <option value="sneakers">Puma</option>
+            </select>
+            <input type="date" name="" id="date">
+            <button type="submit" id="add">Add Expense</button>
+        </div>
+
+        <div class="output">
+            <table id="exp-table">
+                <thead>
+                <tr><th>Expense name</th>
+                    <th>Amount</th>
+                    <th>Category</th>
+                    <th>Date</th>
+                    <th>Action</th>
+                </tr>
+</thead>
+<tbody>
+
+</tbody>
+                
+            </table>
+        </div>
+        <div class="tot">
+            <h3>Total:</h3> <input type="number" id="total">
+            <select name="op" id="opt">
+                <option value="all">All</option>
+                 <option value="Food">Food</option>
+                <option value="fashion">Fashion</option>
+                <option value="ent">Entertain</option>
+                <option value="sneakers">Puma</option>
+           
+
+            </select>
+        </div>
+    </div>
+
+
+    <script src="script/script.js"></script>
+</body>
+</html>
